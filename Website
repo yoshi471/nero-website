@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Nero</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <img src="nero-logo.png" alt="Project Nero" class="w-32 mb-6" />
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">Project Nero</h1>
+    <p class="text-lg md:text-xl mb-6 max-w-xl">
+      Relive the magic of OG Fortnite – Project Nero brings back Chapter 2 Season 8 with a modern, optimized engine.
+    </p>
+    <a href="#download" class="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-lg font-semibold transition">
+      Get Started
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-20 px-6 bg-gray-800">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">What is Project Nero?</h2>
+      <p class="text-lg">
+        A faithful recreation of Fortnite Chapter 2 Season 8 using a custom engine built in C++ & OpenGL. From accurate movement to original POIs, Project Nero is a love letter to the OG days.
+      </p>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="py-20 px-6">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12">Core Features</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+        <div>
+          <h3 class="text-xl font-semibold mb-2">🎮 Original Gameplay</h3>
+          <p>Movement, builds, weapons, and mechanics – just like it was in Chapter 2 Season 8.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">🧱 Custom Engine</h3>
+          <p>Built from scratch with OpenGL & C++ for blazing performance and full control.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-semibold mb-2">🔒 Safe & Offline</h3>
+          <p>Play without bans. All files are hosted privately and safely with no Epic interference.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section id="download" class="py-20 px-6 bg-gray-800">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Download Nero</h2>
+      <p class="mb-8 text-lg">Start your journey back in time with the most authentic OG Fortnite experience available.</p>
+      <a href="https://discord.gg/YOUR_INVITE" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 px-8 py-4 rounded-lg text-lg font-semibold transition">
+        Join Our Discord
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-gray-900 text-center text-gray-400">
+    <p>© 2025 Project Nero. All rights reserved.</p>
+    <p class="mt-2">Made by Goose & Team</p>
+  </footer>
+</body>
+</html>
